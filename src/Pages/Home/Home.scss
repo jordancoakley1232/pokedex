@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: rgb(207, 91, 91);
+    padding: 40px;
+    .header-container{
+        margin-bottom: 15px;
+        text-align: center;
+        .header{
+            text-transform: uppercase;
+            font-size: 54px;
+            color: white;
+        }
+    }
+   
+}

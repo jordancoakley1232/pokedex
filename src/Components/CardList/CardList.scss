@@ -1,0 +1,29 @@
+.card-list-container{
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-column-gap: 10px;
+   grid-row-gap: 10px;
+
+   @media screen and (max-width: 617px) {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   
+}
+
+.nav-btn {
+   color: #fff;
+   background-color: #03a9f4;
+   cursor: pointer;
+   height: 35px;
+   padding: 0 1.5rem;
+   font-size: 15px;
+   font-weight: 600;
+   letter-spacing: 0.8px;
+ text-align: center;
+ text-transform: uppercase;
+ outline: none;
+ border: 1px solid #fff;
+ border-radius: 2px;
+}
